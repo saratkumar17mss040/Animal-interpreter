@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2rem;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+body {
+  background-color: rgb(50, 196, 147);
+}
+
+input {
+  margin: 2rem;
+  height: 3rem;
+  width: 60%;
+  border: 3px solid black;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.animal-name {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 12px;
+  max-width: 60%;
+}
+
+.emojis {
+  max-width: 80%;
+  width: 50em;
+  margin: 0 auto;
+}
+
+.emoji {
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0 1em;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 400px) {
+  .emoji {
+    font-size: 1.25rem;
+  }
+}
